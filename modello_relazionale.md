@@ -1,4 +1,4 @@
->**actor** *(__actor_id__, first_name, last_name)* 
+>**actor** *(<ins>actor_id</u>, first_name, last_name)* 
 
 >**country** *(<u>country_id</u>, country)*  
 
