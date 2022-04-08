@@ -1,5 +1,4 @@
->***actor*** (actor_id, first_name, last_name) 
-
+>***actor*** (actor_id, first_name, last_name)
 >***country*** (country_id, country)  
 
 >***category*** (category_id, name) 
