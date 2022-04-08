@@ -1,5 +1,5 @@
 >actor(actor_id, first_name, last_name) 
-country(country_id, country)  
+>>country(country_id, country)  
 category(category_id, name) 
 special_features(feature_id, name)  
 language(language_id, name) 
