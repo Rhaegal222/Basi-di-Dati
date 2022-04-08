@@ -5,7 +5,7 @@
     <li>special_features(feature_id, name)  
     <li>language(language_id, name) 
     <li>staff(staff_id, first_name, last_name, address_id*, picture, email, store_id*, active, username, password)
-        >> con vincolo di integrità referenziale tra l’attributo store_id e la relazione store 
+        <p><p>con vincolo di integrità referenziale tra l’attributo store_id e la relazione store 
     <li>city(city_id, city, country_id*)
         <p>con vincolo di integrità referenziale tra l’attributo country_id e la relazione country 
     <li>address(address_id, address, address2, district, city_id*, postal_code, phone, location)
