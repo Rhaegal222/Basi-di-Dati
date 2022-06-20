@@ -15,7 +15,6 @@ CREATE TABLE Progetto(
     FOREIGN KEY (responsabile) REFERENCES Ricercatore(cf)
 );
 
-
 CREATE TABLE Partecipante(
     progetto INT NOT NULL,
     ricercatore CHAR(16) NOT NULL,
@@ -24,15 +23,11 @@ CREATE TABLE Partecipante(
 	FOREIGN KEY (ricercatore) REFERENCES Ricercatore(cf)
 );
 
-
 ALTER TABLE dipartimento 
 MODIFY nome VARCHAR(250) NOT NULL UNIQUE;
-
 
 ALTER TABLE Ruolo
 MODIFY nome VARCHAR(100) NOT NULL UNIQUE;
 
-
 ALTER TABLE Ruolo
 ADD UNIQUE KEY unica(codice, nome);
-
